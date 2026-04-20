@@ -395,7 +395,7 @@ st.markdown("""<style>
 </style>""", unsafe_allow_html=True)
 
 # ---- SIDEBAR ----
-st.sidebar.title("⚙️ Pipeline Analítico")
+st.sidebar.title("⚙️ Iniciar Processo")
 arquivo = st.sidebar.file_uploader("Upload do Extrato (CSV Sienge)", type=['csv'])
 
 if not arquivo:
@@ -506,7 +506,7 @@ if os.path.exists(logo_path_png):
 elif os.path.exists(logo_path_jpg):
     st.image(logo_path_jpg, width=250)
 
-st.title("BI Torquato Fernandes")
+st.title("BI Torquato Fernandes | Financeiro - Realizado")
 
 st.markdown(f"""<div class="banner">
     <div><div class="banner-sub">Período analisado</div>
