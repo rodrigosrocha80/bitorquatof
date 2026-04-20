@@ -367,7 +367,7 @@ def fig_tendencia(df: pd.DataFrame, col: str) -> go.Figure:
 # 7. APP
 # ==========================================
 st.set_page_config(
-    page_title="BI Torquato Fernandes",
+    page_title="BI Torquato Fernandes | Financeiro - Realizado",
     page_icon="🏢", layout="wide"
 )
 
@@ -395,7 +395,7 @@ st.markdown("""<style>
 </style>""", unsafe_allow_html=True)
 
 # ---- SIDEBAR ----
-st.sidebar.title("⚙️ Pipeline Analítico")
+st.sidebar.title("⚙️ Iniciar Processo")
 arquivo = st.sidebar.file_uploader("Upload do Extrato (CSV Sienge)", type=['csv'])
 
 if not arquivo:
