@@ -395,7 +395,7 @@ st.markdown("""<style>
 </style>""", unsafe_allow_html=True)
 
 # ---- SIDEBAR ----
-st.sidebar.title("⚙️ Iniciar Processo")
+st.sidebar.title("⚙️ Pipeline Analítico")
 arquivo = st.sidebar.file_uploader("Upload do Extrato (CSV Sienge)", type=['csv'])
 
 if not arquivo:
